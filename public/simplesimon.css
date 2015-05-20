@@ -1,0 +1,79 @@
+.circle {
+	border-radius: 80px;
+	border: solid 1.7px black;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+
+}
+
+
+#stick-figure {
+	height: 200px;
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+}
+#game-container {
+	margin-left: 33.33333%;
+	max-width: 400px;
+	border: solid 1.7px black;
+	border-radius: 100px;
+	padding: 15px;
+	background-color: #E0E0E0;
+
+}
+
+#text-container {
+	text-align: center;
+}
+
+.column > .row {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+#red {
+	background-color: rgba(255, 23, 68, .3);
+	/*#FF1744*/
+
+}
+
+#green {
+	background-color: rgba(0, 200, 83, .3);
+	/*#00C853*/
+}
+
+#blue {
+	background-color: rgba(0, 145, 234, .3);
+	/*#0091EA*/
+}
+
+#yellow {
+	background-color: rgba(255, 255, 0, .3);
+	/*#FFFF00*/
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	font-size: 65px;
+	margin: 5px;
+}
+
+h2, p {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	font-size: 35px;
+	margin: 5px;
+}
