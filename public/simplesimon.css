@@ -4,6 +4,7 @@
 	width: 150px;
 	height: 150px;
 	margin: 5px;
+	opacity: .3;
 
 }
 
@@ -14,6 +15,17 @@
 	left: 5px;
 	bottom: 5px;
 }
+
+#startButton {
+	background-color: white;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	font-size: 40px;
+	border-radius: 10px;
+	box-shadow: none;
+
+}
+
 #game-container {
 	margin-left: 33.33333%;
 	max-width: 400px;
@@ -44,23 +56,23 @@
 }
 
 #red {
-	background-color: rgba(255, 23, 68, .3);
+	background-color: rgb(255, 23, 68);
 	/*#FF1744*/
 
 }
 
 #green {
-	background-color: rgba(0, 200, 83, .3);
+	background-color: rgb(0, 200, 83);
 	/*#00C853*/
 }
 
 #blue {
-	background-color: rgba(0, 145, 234, .3);
+	background-color: rgb(0, 145, 234);
 	/*#0091EA*/
 }
 
 #yellow {
-	background-color: rgba(255, 255, 0, .3);
+	background-color: rgb(255, 255, 0);
 	/*#FFFF00*/
 }
 
